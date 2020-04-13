@@ -1,0 +1,48 @@
+@import url("https://use.typekit.net/ldo5eco.css");
+@import url("https://use.typekit.net/ldo5eco.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'europa', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: 'effra', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background: #393939;
+}
+
+.nav_class {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 2px;    
+}
+
+.nav_class a {
+    color: #a2a2a2;
+}
+
+.nav_class a:hover {
+    color: #cdcdcd;
+} 
+
+
+
+
+
