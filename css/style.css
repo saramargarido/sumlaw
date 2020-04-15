@@ -156,10 +156,6 @@ h1, h2, h3, h4, h5 {
     font-style: normal;
 }
 
-.hr {
-    display: block;
-    padding: 80px 0;
-}
 
 hr {
     border-color: #555555;
@@ -187,8 +183,19 @@ p {
     margin-top: 0;
 }
 
+.bg_video{
+	position: relative; 
+	right: 0; 
+	bottom: 0;
+	width: 100%; 
+	background: url(img/star.gif) no-repeat;
+    background-size: cover; 
+}
 
 
+.mercado {
+    background: #393939;
+}
 
 /* Responsividade */
 
