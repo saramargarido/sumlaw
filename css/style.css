@@ -1,5 +1,4 @@
 @import url("https://use.typekit.net/ldo5eco.css");
-@import url("https://use.typekit.net/ldo5eco.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *,
@@ -142,15 +141,35 @@
 
 /* css da pg */
 
+h1 {
+    color: #fdc140;
+}
+
+h5 {
+    color: #a08c6c;
+    font-weight: 700;
+}
+
+
 h1, h2, h3, h4, h5 {
     font-family: 'europa', sans-serif;
-    font-weight: 400;
     font-style: normal;
 }
 
+.hr {
+    display: block;
+    padding: 80px 0;
+}
+
+hr {
+    border-color: #555555;
+}
+
 p {
+    color: #c8c8c8;
+    font-size: 1.2em;
     font-family: 'effra', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -160,6 +179,12 @@ p {
     height: 500px;
     padding: 100px 0;
     text-align: center;
+}
+
+.principios {
+    position: relative;
+    background: #393939;
+    margin-top: 0;
 }
 
 
