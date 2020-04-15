@@ -139,7 +139,8 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.75em;
     font-weight: 500;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
+    height: 15vh;   
 }
 
 .nav_class a {
@@ -150,3 +151,14 @@ header {
 .nav_class a:hover {
     color: #cdcdcd;
 } 
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .div_logo {
+        margin: 0;
+        padding: 15px 0;
+    }
+}
