@@ -55,7 +55,7 @@
     }
 
     .hamburguer:before {
-        top: -10px;
+        top: -10px;        
     }
 
     .hamburguer:after {
@@ -88,6 +88,7 @@
     /* // só aparecer o menu ao clicar */
     input:checked ~ .ul_hamburguer {
         opacity: 1;
+        visibility: visible;
     }
 
     /* // animação e estilo do menu */
@@ -104,6 +105,7 @@
         z-index: 5;
         overflow: auto;
         display: block;
+        visibility: hidden;
     }
 
     .ul_hamburguer a {
@@ -137,7 +139,7 @@
     .nav_class a:hover {
         color: #cdcdcd;
     } 
-    
+
 /* css da pg */
 
 h1, h2, h3, h4, h5 {
@@ -152,7 +154,18 @@ p {
     font-style: normal;
 }
 
+.start {
+    background: #3d332e;
+    color: #fdc140;
+    height: 500px;
+    padding: 100px 0;
+    text-align: center;
+}
 
+
+
+
+/* Responsividade */
 
 @media (max-width: 992px) {
     .navbar-nav {
@@ -162,5 +175,11 @@ p {
     .div_logo {
         margin: 0;
         padding: 15px 0;
+    }  
+}
+
+@media (min-width: 992px) {
+    .div_start {
+        padding: 0 180px;
     }
 }
