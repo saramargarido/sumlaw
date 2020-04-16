@@ -150,6 +150,10 @@ h5 {
     font-weight: 700;
 }
 
+h3 {
+    color: #fff;
+    font-weight: 700;
+}
 
 h1, h2, h3, h4, h5 {
     font-family: 'europa', sans-serif;
@@ -195,6 +199,16 @@ p {
 
 .mercado {
     background: #393939;
+}
+
+.mercado img {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.legenda {
+    font-size: 1em;
+    padding: 20px;
 }
 
 /* Responsividade */
