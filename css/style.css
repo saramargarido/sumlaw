@@ -201,7 +201,7 @@ p {
 }
 
 
-.mercado, .expertise, .disrupcao, .equipe {
+.mercado, .expertise, .disrupcao, .equipe, .contato {
     background: #393939;
 }
 
@@ -248,7 +248,13 @@ p {
     padding-top: 10px;
 }
 
+.equipe {
+    padding-bottom: 10px;
+}
 
+.contato {
+    padding-bottom: 60px;
+}
 
 /* Responsividade */
 
@@ -266,5 +272,11 @@ p {
 @media (min-width: 992px) {
     .div_start {
         padding: 0 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contato {
+        text-align: center;
     }
 }
