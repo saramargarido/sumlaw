@@ -197,7 +197,7 @@ p {
 }
 
 
-.mercado {
+.mercado, .expertise {
     background: #393939;
 }
 
@@ -207,8 +207,21 @@ p {
 }
 
 .legenda {
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 20px;
+}
+
+.img_way {
+    background-image: url(/img/way.jpg);
+    height: 100vh;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img_way img{
+    width: 100%;
 }
 
 /* Responsividade */
