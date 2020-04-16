@@ -228,6 +228,28 @@ p {
     width: 100%;
 }
 
+.combustivel {
+    background: #3d332e;
+    color: #fff;
+}
+
+.combustivel div {
+    height: 500px;
+    padding: 100px 0;
+}
+
+.combustivel div h1 {
+    color: #fff;
+}
+
+.combustivel div p {
+    font-size: 1.3em;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+
+
 /* Responsividade */
 
 @media (max-width: 992px) {
