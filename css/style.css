@@ -215,13 +215,13 @@ p {
     padding: 20px;
 }
 
-.img_way {
-    background-image: url(/img/way.jpg);
-    height: 100vh;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.container-fluid {
+    padding: 0;
+}
+
+.imagem img {
+    width: 100%;
+    padding: 0;
 }
 
 .img_way img{
