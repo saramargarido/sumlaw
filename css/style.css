@@ -322,3 +322,15 @@ footer {
         padding-top: 1.5em;
     }
 }
+
+@media (max-width: 575.98px) {
+
+    .container_resp {
+        padding: 0 50px;
+    }
+
+    .combustivel_resp h1, .combustivel_resp p {
+        padding: 0 50px;
+
+    }
+}
