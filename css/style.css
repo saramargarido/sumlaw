@@ -119,11 +119,28 @@
         overflow: auto;
     }
 
+    .hamb_class {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.75em;
+        font-weight: 500;
+        letter-spacing: 2px;
+        height: 15vh;   
+    }
+    
+    .hamb_class a {
+        color: #a2a2a2;
+        text-decoration: none;
+    }
+    
+    .hamb_class a:hover {
+        color: #cdcdcd;
+    }
+
     /* header */
 
     header {
         background: #393939;
-        height: 15vh;
+        height: 10vh;
     }
     
     .nav_class {
@@ -131,7 +148,11 @@
         font-size: 0.75em;
         font-weight: 500;
         letter-spacing: 2px;
-        height: 15vh;   
+        margin-top: 0;
+        position: fixed;
+        width: 100%; 
+        background: #393939;
+        z-index: 999999;
     }
     
     .nav_class a {
@@ -142,6 +163,7 @@
     .nav_class a:hover {
         color: #cdcdcd;
     } 
+
 
 /* css da pg */
 
@@ -301,6 +323,11 @@ footer {
     .div_start {
         padding: 0 180px;
     }
+
+    .menu_hamburguer {
+        display: none;
+    }
+    
 }
 
 @media (max-width: 768px) {
