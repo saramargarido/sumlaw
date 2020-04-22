@@ -235,6 +235,7 @@ p {
 .legenda {
     font-size: 1em;
     padding: 20px;
+    text-align: center;
 }
 
 .container-fluid {
@@ -359,5 +360,10 @@ footer {
     .combustivel_resp h1, .combustivel_resp p {
         padding: 0 50px;
 
+    }
+
+    .legenda {
+        font-size: 1.2em;
+        padding: 15px 5px;
     }
 }
